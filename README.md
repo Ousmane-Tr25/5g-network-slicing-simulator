@@ -198,3 +198,23 @@ This project shows the ability to:
 ## Author
 
 Ousmane Traore
+
+## Results preview
+
+The repository includes a reproducible example experiment with 500 synthetic 5G users.
+
+Run the experiment with:
+
+python -m slicing_simulator.cli --users 500 --seed 42 --output results
+
+### Method comparison
+
+![Method comparison](examples/results/figure_method_comparison.png)
+
+### K-Means traffic clustering
+
+![K-Means clustering](examples/results/figure_kmeans.png)
+
+### Linear regression baseline
+
+![Regression prediction](examples/results/figure_regression_prediction.png)
